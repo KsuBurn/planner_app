@@ -1,0 +1,57 @@
+body {
+  height: auto;
+  margin: 0;
+}
+
+.wrap {
+  display: grid;
+  margin: auto;
+  max-width: 2000px;
+  grid-template-rows: 65px 1fr;
+  grid-template-columns: 75% 25%;
+  border: solid #e0e0e0 1px;
+  height: 100vh;
+}
+
+.overlay_modal_opened {
+  filter: blur(1px);
+}
+
+.month_change {
+  display: flex;
+  grid-column: 1;
+  grid-row: 1 / 2;
+}
+
+.sidebar {
+  grid-column: 2;
+  grid-row: 2/ 3;
+  border-top: solid #e0e0e0 1px;
+}
+
+.overlay_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.modal {
+  position: absolute;
+  margin: 13% 30%;
+  height: 300px;
+  width: 400px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  filter: none;
+  box-shadow: 0 0 20px #ccc;
+  display: flex;
+  flex-direction: column;
+}
+

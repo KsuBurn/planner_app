@@ -1,0 +1,9 @@
+.wrap {
+  display: none;
+}
+
+.clicked_wrap {
+  display: block;
+  position: absolute;
+  border: solid;
+}

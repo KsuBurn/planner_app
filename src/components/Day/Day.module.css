@@ -1,0 +1,14 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid #e0e0e0 1px;
+  border-right: solid #e0e0e0 1px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+ }
+
+.deals {
+  width: 100%;
+  height: 100%;
+}
